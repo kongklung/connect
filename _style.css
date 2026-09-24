@@ -1,0 +1,72 @@
+/* ใช้ร่วมกันทั้ง privacy และ support — ถ้าแก้สี แก้ที่นี่ที่เดียว */
+body {
+  font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  padding: 1em;
+  max-width: 900px;
+  margin: 0 auto;
+  line-height: 1.65;
+  color: #292928;
+}
+
+h2 { margin-bottom: 0.2em; }
+
+h3 {
+  margin-top: 2em;
+  padding-bottom: 0.3em;
+  border-bottom: 2px solid #C3F832;
+}
+
+.updated {
+  color: #666;
+  font-size: 0.9em;
+  margin-top: 0;
+}
+
+.en { color: #555; }
+
+table {
+  border-collapse: collapse;
+  width: 100%;
+  margin: 1em 0;
+  font-size: 0.95em;
+}
+
+th, td {
+  border: 1px solid #ddd;
+  padding: 0.6em;
+  text-align: left;
+  vertical-align: top;
+}
+
+th { background: #F2F3F4; }
+
+code {
+  background: #F2F3F4;
+  padding: 0.1em 0.35em;
+  border-radius: 3px;
+  font-size: 0.9em;
+}
+
+.contact {
+  background: #F2F3F4;
+  padding: 1em;
+  border-radius: 6px;
+}
+
+.nav {
+  font-size: 0.9em;
+  margin-bottom: 2em;
+}
+
+.nav a { color: #292928; }
+
+@media (prefers-color-scheme: dark) {
+  body { background: #1C1C1B; color: #E6E6E4; }
+  .updated, .en { color: #A0A09D; }
+  h3 { border-bottom-color: #C3F832; }
+  th { background: #2A2A28; }
+  th, td { border-color: #3A3A37; }
+  code, .contact { background: #2A2A28; }
+  a { color: #C3F832; }
+  .nav a { color: #E6E6E4; }
+}
